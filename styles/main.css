@@ -22,3 +22,24 @@ h3 {
     margin-top: 20px;
 }
 
+.fade-in {
+    opacity: 0;
+    animation: fadein 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards ;
+
+}
+
+
+
+
+/*---KEYFRAMES---*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
