@@ -22,13 +22,13 @@ h3 {
     margin-top: 20px;
 }
 
-.fade-in {
+/*.fade-in {
     opacity: 0;
     animation: fadein 2s;
     animation-delay: .5s;
     animation-fill-mode: forwards ;
 
-}
+}*/
 
 
 
