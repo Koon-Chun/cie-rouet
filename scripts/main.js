@@ -1,19 +1,12 @@
-let fadeElements = document.querySelectorAll('.fade-in');
+const fadeElements = document.querySelectorAll('.fade-in');
 
-function fadeInElements() {
-    for (let i = 0; i < fadeElements.length; i++) {
-        let timer = Math.random()*2.85;
-        timer = timer.toFixed(2)+'s';
-        
-        let delay = Math.random()*2.85;
-        delay = delay.toFixed(2)+'s';;
+fadeElements.forEach(element => {
+    element.style.opacity = 0;
+    const delay = (Math.random() * 2.85).toFixed(2);
 
-        fadeElements[i].style.transition = 'opacity ' + timer + 'ms';
-        fadeElements[i].style.opacity = 1;
-    }
-}
-
-for (let i = 0; i < fadeElements.length; i++) {
-    fadeElements[i].style.opacity = 0;
-    fadeInElements();
-}
+    element.style.transitionDelay = `${delay}s`;
+    
+    requestAnimationFrame(() => {
+        element.style.opacity = 1;
+    });
+});
