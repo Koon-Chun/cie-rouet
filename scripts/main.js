@@ -1,12 +1,20 @@
 const fadeElements = document.querySelectorAll('.fade-in');
 
-fadeElements.forEach(element => {
-    element.style.opacity = 0;
-    const delay = (Math.random() * 2.85).toFixed(2);
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
 
-    element.style.transitionDelay = `${delay}s`;
-    
-    requestAnimationFrame(() => {
-        element.style.opacity = 1;
+        const delay = Math.random() * 0.8;
+
+        entry.target.style.transitionDelay = `${delay}s`;
+        entry.target.classList.add('visible');
+
+        observer.unobserve(entry.target);
     });
+}, {
+    threshold: 0.15
+});
+
+fadeElements.forEach(element => {
+    observer.observe(element);
 });
