@@ -21,6 +21,7 @@ body    {
 
 h1      {
     font-family: "MedievalSharp", cursive;
+    /*font-size: large;*/
 }
 
 
@@ -55,6 +56,11 @@ h3:hover {
 
 a:hover {
     color: var(--blanc) !important;
+    transition: all 0.3s ease;
+}
+
+#whom >*:hover {
+    transform: scale(1.05);
     transition: all 0.3s ease;
 }
 
