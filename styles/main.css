@@ -1,26 +1,42 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 body    {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     background-color: #f8f9fa;
     margin: 0;
     padding: 0;
-}  
+} 
+
+
+h1      {
+    font-family: "MedievalSharp", cursive;
+}
+
+
+h3      {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #eeab1c;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 
 #menu   {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
     background-color: #592e63 !important;
-    color: #ffffff;
 }
+
 
 .nav-item > a {
     color: #eeab1c !important;
     text-decoration: none;
 }
 
-h3 {
-    color: #eeab1c;
-    font-weight: bold;
-    margin-top: 20px;
-}
 
 .fade-in {
     opacity: 0;
