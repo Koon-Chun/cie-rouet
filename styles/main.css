@@ -1,11 +1,19 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
+:root {
+  --jaune: #c90;
+  --aubergine: #8F0066;
+  --blanc: #f5f5f5;
+  --noer: #2e2e2e;
+}
+
 
 body    {
     font-family: "Cormorant", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    background-color: #f8f9fa;
+    color: var(--noer);
+    background-color: var(--blanc);
     margin: 0;
     padding: 0;
 } 
@@ -19,7 +27,7 @@ h1      {
 h3      {
     font-family: "Fira Sans", sans-serif;
     font-weight: 700;
-    color: #eeab1c;
+    color: var(--jaune);
     font-weight: bold;
     margin-top: 20px;
 }
@@ -28,12 +36,12 @@ h3      {
 #menu   {
     font-family: "Fira Sans", sans-serif;
     font-weight: 700;
-    background-color: #592e63 !important;
+    background-color: var(--aubergine);
 }
 
 
 .nav-item > a {
-    color: #eeab1c !important;
+    color: var(--jaune);
     text-decoration: none;
 }
 
