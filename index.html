@@ -3,16 +3,16 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>La Compagnie du rouet</title>
         <meta name="description" content="Club de jeux de rôles à Fourmies.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Fira+Sans:wght@700&family=MedievalSharp&display=swap');
-        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Fira+Sans:wght@700&family=MedievalSharp&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
@@ -20,10 +20,10 @@
             <h1 class="fade-in text-center mt-5">La Compagnie du rouet</h1>
             <p class="fade-in text-center">Club de jeux de rôles à Fourmies</p>
         </div>
-        <div class="mb-5" id="menu">
+        <div class="container mb-5 bg-secondary" id="menu">
             <ul class="nav justify-content-center p-4 mb-4">
                 <li class="nav-item">
-                    <a class="fade-in nav-link active" href="#who">Qui Sommes Nous ?</a>
+                    <a class="fade-in nav-link" href="#who">Qui Sommes Nous ?</a>
                 </li>
                 <li class="nav-item">
                     <a class="fade-in nav-link" href="#what">A Quoi Joue-t-on ?</a>
@@ -33,70 +33,78 @@
                 </li>
                 <li class="nav-item">
                     <a class="fade-in nav-link" href="#where">Où nous retrouver ?</a>
+                </li>
             </ul>
         </div>
         
-        <div class="container mt-4 pt-4">
-            <div class="fade-in container py-2" id="who">
-                <h3>Qui Sommes Nous ?</h3>
+        <div class="container">
+            <div class="fade-in py-2" id="who">
+                <h3 class="mb-2">Qui Sommes Nous ?</h3>
                 <div><p>Existant depuis 2025, La compagnie du Rouet est un club soutenu par le Centre Socio-Culturel de Fourmies.
                     Ses membres visent le développement de la pratique du jeu de rôles, en présentiel mais aussi sous ses formes alternatives.
-                </p></div>
+                    </p>
+                </div>
             </div>
 
-            <div class="container py-2 fade-in" id="what">
-                <h3>A quoi Joue t on ?</h3>
+
+
+            <div class="py-2 fade-in" id="what">
+                <h3 class="mb-2">A quoi Joue t on ?</h3>
                 <div><p>Voici une liste non exhaustive des jeux auxquels les membres et meneur.euses peuvent vous proposer de jouer</p></div>
             </div>
 
-            <div class="container py-2 fade-in" id="whom">
-                <h3 class="mb-2">Avec Qui ? Les Meneurs.euses</h3>
-                <div class="d-flex flex-wrap justify-content-evenly">
 
-                    <div class="fade-in card col-3 m-1 my-2">
+
+            <div class="py-2 fade-in" id="whom">
+                <h3 class="mb-2">Avec Qui ? Les Meneurs.euses</h3>
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 gx-3 gy-4">
+
+                    <div class="fade-in card border-primary">
                         <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Jimmy</h5>
+                            <h5 class="card-title text-secondary">Jimmy</h5>
                             <p class="card-text"> Aime les vampires et les loups Garous</p>
                         </div>
                     </div>
 
-                    <div class=" fade-in card col-3 m-1 my-2">
+                    <div class=" fade-in card border-primary">
                         <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Greg</h5>
+                            <h5 class="card-title text-secondary">Greg</h5>
                             <p class="card-text"> Plat préféré : les encornets</p>
                         </div>
                     </div>
 
-                    <div class="fade-in card col-3 m-1 my-2">
+                    <div class="fade-in card border-primary">
                         <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Matthieu</h5>
+                            <h5 class="card-title text-secondary">Mathieu</h5>
                             <p class="card-text">Amateur de vieilles bâtissses et monstres légendaires</p>
                         </div>
                     </div>
 
-                    <div class="fade-in card col-3 m-1 my-2">
+                    <div class="fade-in card border-primary">
                         <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Marine</h5>
+                            <h5 class="card-title text-secondary">Marine</h5>
                             <p class="card-text">Fait des arbres à chats en pierre</p>
                         </div>
                     </div>
 
-                    <div class="fade-in card col-3 m-1 my-2">
+                    <div class="fade-in card border-primary">
                         <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Quentin</h5>
+                            <h5 class="card-title text-secondary">Quentin</h5>
                             <p class="card-text">Le changement est la seule constante existante.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container py-2 fade-in" id="where">
-                <h3>Où nous retrouver ?</h3>
+
+
+            <div class="py-2 fade-in" id="where">
+                <h3 class="mb-2">Où nous retrouver ?</h3>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
             </div>
 
@@ -108,7 +116,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <footer>2026 - La Compagnie du Rouet - Fourmies, France - Avec le soutien du Centre Socio-Culturel de Fourmies</footer>
+        <footer class="container"><p class=" mt-5 text-center fade-in" >2026 - La Compagnie du Rouet - Fourmies, France - Avec le soutien du Centre Socio-Culturel de Fourmies</p></footer>
         <script src="scripts/main.js"></script>
     </body>
 </html>
