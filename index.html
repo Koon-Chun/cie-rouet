@@ -14,12 +14,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Fira+Sans:wght@700&family=MedievalSharp&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="scripts/carousel.js"></script>
     </head>
     <body>
-        <div class="container">
+        <header class="container">
             <h1 class="fade-in text-center mt-5">La Compagnie du rouet</h1>
             <p class="fade-in text-center">Club de jeux de rôles à Fourmies</p>
-        </div>
+        </header>
         <div class="container mb-5 bg-secondary" id="menu">
             <ul class="nav justify-content-center p-4 mb-4">
                 <li class="nav-item">
@@ -53,20 +55,56 @@
                 <h3 class="pb-2 text-center text-md-start">A quoi Joue t on ?</h3>
                 <div>
                     <p>Voici une liste non exhaustive des jeux auxquels les membres et meneur.euses peuvent vous proposer de jouer</p>
+                    <div id="GamesCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="logo/dnd.png" alt="D&D Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/cthulhu.png" alt="Chthlhu Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/daggerheart.png" alt="Daggerheart Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/chroniquesoubliees.png" alt="Chroniques Oubliees Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/loupgarou.png" alt="Loup Garou Logo" class="d-block w-100">     
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/paranoia.png" alt="Paranoia Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/aria.png" alt="Aria Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/cyberpunk.png" alt="Cyberpunk Logo" class="d-block w-100">
+                            </div> 
+                            <div class="carousel-item">
+                            <img src="logo/donjonsetchatons.png" alt="Donjons & Chatons Logo" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/horreuraarkham.png" alt="Horreur a Arkham Logo" class="d-block w-100">  
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/lanfeust.png" alt="Lanfeust Logo" class="d-block w-100">    
+                            </div>
+                            <div class="carousel-item">
+                            <img src="logo/shadowdark.png" alt="Shadowdark Logo" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#GamesCarouselControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#GamesCarouselControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
                 </div>
             </div>
-            <img src="logo/d&d.png" alt="D&D Logo" class="img-fluid">
-            <img src="logo/cthulhu.png" alt="Chthlhu Logo" class="img-fluid">
-            <img src="logo/daggerheart.png" alt="Daggerheart Logo" class="img-fluid">
-            <img src="logo/chroniquesoubliees.png" alt="Chroniques Oubliees Logo" class="img-fluid">
-            <img src="logo/loupgarou.png" alt="Loup Garou Logo" class="img-fluid">
-            <img src="logo/paranoia.png" alt="Paranoia Logo" class="img-fluid">
-            <img src="logo/aria.png" alt="Aria Logo" class="img-fluid">
-            <img src="logo/cyberpunk.png" alt="Cyberpunk Logo" class="img-fluid">
-            <img src="logo/donjons&chatons.png" alt="Donjons & Chatons Logo" class="img-fluid">
-            <img src="logo/horreuraarkham.png" alt="Horreur a Arkham Logo" class="img-fluid">
-            <img src="logo/lanfeust.png" alt="Lanfeust Logo" class="img-fluid">
-            <img src="logo/shadowdark.png" alt="Shadowdark Logo" class="img-fluid">
 
 
             <div class="py-2 fade-in" id="whom">
