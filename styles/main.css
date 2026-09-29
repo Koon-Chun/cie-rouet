@@ -7159,8 +7159,8 @@ header {
   background-position: center;
 }
 
-#GamesCarousel {
-  height: 600px;
+.carousel-item {
+  height: 500px;
 }
 
 /*# sourceMappingURL=main.css.map */
