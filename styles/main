@@ -7163,14 +7163,9 @@ header {
   height: 500px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon,
-.carousel-caption {
+.carousel-control-prev,
+.carousel-control-next {
   color: #2e2e2e;
 }
 
-.hp-300 {
-  height: 300px !important;
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.map */

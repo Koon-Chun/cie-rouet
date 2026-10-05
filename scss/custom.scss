@@ -77,3 +77,12 @@ header {
 .carousel-item {
   height: 500px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-caption {
+  color: $body-color;
+}
+.hp-300 {
+height: 300px !important;
+}
