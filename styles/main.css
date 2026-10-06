@@ -7178,4 +7178,8 @@ header {
   height: 300px !important;
 }
 
+#map {
+  height: 27em;
+}
+
 /*# sourceMappingURL=main.css.map */
