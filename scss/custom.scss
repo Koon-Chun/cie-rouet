@@ -79,9 +79,14 @@ header {
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon,
+.carousel-control-next-icon {
+  background-color: $secondary;
+  border-radius: 50%;
+}
 .carousel-caption {
   color: $body-color;
+  background-color: rgba(0, 0, 0, 0.2);
+  ;
 }
 .hp-300 {
 height: 300px !important;

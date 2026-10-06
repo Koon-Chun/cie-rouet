@@ -7164,9 +7164,14 @@ header {
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon,
+.carousel-control-next-icon {
+  background-color: #705;
+  border-radius: 50%;
+}
+
 .carousel-caption {
   color: #2e2e2e;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .hp-300 {
