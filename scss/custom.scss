@@ -69,9 +69,10 @@ h3:hover {
 }
 
 header {
-  background-image: url('./img/baniere-rouet.png') !important;
+  background-image: url('../img/baniere-rouet.png');
   background-size: cover;
   background-position: center;
+  height: 15em;
 }
 
 
@@ -102,7 +103,7 @@ height: 300px !important;
 height: 150px !important;
 }
 
-  
+
 #map {
   height: 27em;
 }
