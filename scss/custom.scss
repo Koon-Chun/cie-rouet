@@ -20,6 +20,7 @@
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/utilities/api";
 @import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/helpers";
 
 
 h1      {
@@ -83,14 +84,19 @@ header {
   background-color: $secondary;
   border-radius: 50%;
 }
+
+
 .carousel-caption {
   color: $body-color;
   background-color: rgba(0, 0, 0, 0.2);
   ;
 }
-.hp-300 {
+
+
+.hf-300 {
 height: 300px !important;
 }
+
 
 #map {
   height: 27em;
