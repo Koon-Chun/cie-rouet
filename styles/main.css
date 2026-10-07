@@ -7491,9 +7491,10 @@ h3:hover, .h3:hover {
 }
 
 header {
-  background-image: url("./img/baniere-rouet.png") !important;
+  background-image: url("../img/baniere-rouet.png");
   background-size: cover;
   background-position: center;
+  height: 15em;
 }
 
 .carousel-item {
@@ -7508,11 +7509,15 @@ header {
 
 .carousel-caption {
   color: #2e2e2e;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .hf-300 {
   height: 300px !important;
+}
+
+.hf-150 {
+  height: 150px !important;
 }
 
 #map {

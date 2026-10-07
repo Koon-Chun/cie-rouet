@@ -7154,7 +7154,6 @@ h3:hover, .h3:hover {
 }
 
 header {
-  background-image: url("./img/baniere-rouet.png") !important;
   background-size: cover;
   background-position: center;
 }
